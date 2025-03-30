@@ -1,0 +1,26 @@
+/* Basic layout structure */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+    margin-top: 80px; /* Adjust based on your header height */
+  }
+  
+  section {
+    padding: 4rem 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    main {
+      margin-top: 60px;
+    }
+    
+    section {
+      padding: 2rem 0;
+    }
+  }
